@@ -1,7 +1,7 @@
 # E1.31 Arduino Christmas Light Controllers
-This is a collection of Arduino code and PCB designs to run a ENC28J60 Ethernet module on an Arduino Nano that uses the E1.31 Protocol, and outputs to different types of Christmas lights.
+This is a collection of Arduino code to run a ENC28J60 Ethernet module on an Arduino that uses the E1.31 Protocol, and outputs to different types of Christmas lights.
 
-The main aim of this project is to be able to control Christmas lights on a budget, so the system has quite a few limitations compared to a professional controller, such as its inability to handle Multicast, and its limited outputs. I am planning on upgrading the code and board designs for a STM32 board in the future for more outputs and hopefully Multicast.
+The main aim of this project is to be able to control Christmas lights on a budget, so the system has quite a few limitations compared to a professional controller, such as its inability to handle Multicast, and its limited outputs. I am planning on upgrading the code for a STM32 board in the future for more outputs and hopefully Multicast.
 
 --E1.31_2W--
 This code uses my own LED_2W library to use a H-Bridge to control the output
